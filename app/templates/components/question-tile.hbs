@@ -1,8 +1,8 @@
-<li>{{question.author}}'s question is:</li>
-<li>{{question.question}}</li>
+<li>Author: {{question.author}}</li>
+<li>Question: {{question.question}}</li>
   {{#if areNotesShowing}}
-    <p>Additionl Notes:{{question.notes}}</p>
+    <li>Additionl Notes: {{question.notes}}</li>
   {{else}}
-    <a href="#" {{action 'imageShow'}}>More info</a>
+    <button {{action 'notesShow'}}>More info</button>
   {{/if}}
-<br><hr>
+<hr>
