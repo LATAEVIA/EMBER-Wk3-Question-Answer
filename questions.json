@@ -1,33 +1,29 @@
-{
-  "questions":
-  [{
+{ "questions": [{
     "question": "What is the Answer to the Ultimate Question of Life, The Universe, and Everything?",
     "author": "Some Guy",
     "notes": "According to The Hitchhiker's Guide to the Galaxy by Douglas Adams, what is the Answer to the Ultimate Question of Life, the Universe, and Everything, as calculated by an enormous supercomputer named Deep Thought over a period of 7.5 million years?",
-    "answers": [{"42"},{"Maybe 42"}]
+    "answers": "Maybe 42"
   }, {
     "question": "What's half of 100?",
     "author": "Some Gal",
     "notes": "This whole division thing has me down, could you help?",
-    "answers": [{"50"},{"Maybe 42ish"}]
+    "answers": "Maybe 42ish"
   }, {
     "question": "Why did the chicken cross the road?",
     "author": "Some comedian kid",
     "notes": "C'mon!?",
-    "answers": [{"To get to the other side"},{"For chicken feed"}]
+    "answers": "For chicken feed"
   }],
-
-  "answers":
-  [{
-    "answer": [{"42"},{"Maybe 42"}],
+  "answers": [{
+    "answer": "42",
     "author": "That Guy",
     "question": "What is the Answer to the Ultimate Question of Life, The Universe, and Everything?"
   }, {
-    "answer": [{"50"},{"Maybe 42ish"}],
+    "answer": "50",
     "author": "That Gal",
     "question": "What's half of 100?"
   }, {
-    "answer": [{"To get to the other side"},{"For chicken feed"}],
+    "answer": "For chicken feed",
     "author": "That comedian kid",
     "question": "Why did the chicken cross the road?"
   }]
