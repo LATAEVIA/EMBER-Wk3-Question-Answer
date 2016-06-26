@@ -1,1 +1,5 @@
-{{yield}}
+{{#if addNewQuestion}}
+     <p>Question Form Filler Text</p>
+ {{else}}
+    <button {{action 'questionFormShow'}}>Add Question</button>
+{{/if}}
