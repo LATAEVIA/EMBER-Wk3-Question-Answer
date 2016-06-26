@@ -5,6 +5,9 @@ export default Ember.Component.extend({
   actions: {
     notesShow: function() {
       this.set('areNotesShowing', true);
+    },
+    notesHide: function() {
+      this.set('areNotesShowing', false);
     }
   }
 });
