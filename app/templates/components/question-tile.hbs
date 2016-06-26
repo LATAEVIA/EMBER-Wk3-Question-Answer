@@ -1,1 +1,8 @@
-{{yield}}
+<li>{{question.author}}'s question is:</li>
+<li>{{question.question}}</li>
+  {{#if areNotesShowing}}
+    <p>Additionl Notes:{{question.notes}}</p>
+  {{else}}
+    <a href="#">More info</a>
+  {{/if}}
+<br><hr>
