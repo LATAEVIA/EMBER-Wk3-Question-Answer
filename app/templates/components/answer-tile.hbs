@@ -1,8 +1,8 @@
 <ul>
-  {{#each answers as |answer|}}
+  {{#each question.answers as |answer|}}
+    <li>Question: {{question.pregunta}}</li>
     <li>Answer: {{answer.respuesta}}</li>
     <li>Author: {{answer.author}}</li>
-    <li>Question: {{question.pregunta}}</li>
     <hr>
   {{/each}}
 </ul>
