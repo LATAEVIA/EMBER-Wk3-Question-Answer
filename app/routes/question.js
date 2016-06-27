@@ -21,7 +21,7 @@ export default Ember.Route.extend({
         }
       });
       question.save();
-      this.transitionTo('index');
+      // this.transitionTo('index');
     },
     saveAnswer(params) {
       var newAnswer = this.store.createRecord('answer', params);
@@ -31,7 +31,7 @@ export default Ember.Route.extend({
       newAnswer.save().then(function() {
         return pregunta.save();
       });
-      this.transitionTo('index');
+      // this.transitionTo('index');
     },
   }
 });
