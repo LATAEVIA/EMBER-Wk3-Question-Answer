@@ -15,16 +15,15 @@
 
   }],
   "answers": [{
-    "answer": "42",
+    "respuesta": "42",
     "author": "That Guy",
     "pregunta": "What is the Answer to the Ultimate Question of Life, The Universe, and Everything?"
   }, {
-    "answer": "50",
-    "author": "That Gal"
-    ,
+    "respuesta": "50",
+    "author": "That Gal",
     "pregunta": "What's half of 100?"
   }, {
-    "answer": "For chicken feed",
+    "respuesta": "For chicken feed",
     "author": "That comedian kid",
     "pregunta": "Why did the chicken cross the road?"
   }]

@@ -1,5 +1,9 @@
-<p>{{model.author}} asked: </p>
-<h2>{{model.pregunta}}</h2>
-{{question-detail question=model}}
+<p>{{question.author}} asked: </p>
+<h2>{{question.pregunta}}</h2>
+{{question-detail question=question}}
 
-{{update-question question=model update="update"}}
+{{update-question question=question update="update"}}
+
+{{new-answer question=question saveAnswer="saveAnswer"}}
+
+{{answer-tile question=question answers=answers}}
