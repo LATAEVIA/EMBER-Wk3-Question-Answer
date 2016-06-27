@@ -7,13 +7,22 @@ export default Ember.Route.extend({
       question: this.store.findRecord('question', params.question_id)
     });
   },
-    setupController(controller, model) {
-      this._super(...arguments);
-      Ember.set(controller, 'answers', model.answers);
-      Ember.set(controller, 'question', model.question);
-    },
+  setupController(controller, model) {
+    this._super(...arguments);
+    Ember.set(controller, 'answers', model.answers);
+    Ember.set(controller, 'question', model.question);
+  },
   // using RSVP hash to load two model hooks in one route
   actions: {
+    update(question, params) {
+      Object.keys(params).forEach(function(key) {
+        if(params[key]!==undefined) {
+          question.set(key,params[key]);
+        }
+      });
+      question.save();
+      this.transitionTo('index');
+    },
     saveAnswer(params) {
       var newAnswer = this.store.createRecord('answer', params);
       var pregunta = params.pregunta;
@@ -24,15 +33,5 @@ export default Ember.Route.extend({
       });
       this.transitionTo('index');
     },
-
-    // save3(params) {
-    //   var newRental = this.store.createRecord('rental', params);
-    //   var city = params.city;
-    //   city.get('rentals').addObject(newRental);
-    //   newRental.save().then(function() {
-    //     return city.save();
-    //   });
-    //   this.transitionTo('city', params.city);
-    // },
   }
 });
