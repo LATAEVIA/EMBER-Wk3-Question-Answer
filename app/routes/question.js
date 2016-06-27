@@ -25,14 +25,14 @@ export default Ember.Route.extend({
       this.transitionTo('index');
     },
 
-    // update(question, params) {
-    //   Object.keys(params).forEach(function(key) {
-    //     if(params[key]!==undefined) {
-    //       question.set(key,params[key]);
-    //     }
+    // save3(params) {
+    //   var newRental = this.store.createRecord('rental', params);
+    //   var city = params.city;
+    //   city.get('rentals').addObject(newRental);
+    //   newRental.save().then(function() {
+    //     return city.save();
     //   });
-    //   question.save();
-    //   this.transitionTo('index');
+    //   this.transitionTo('city', params.city);
     // },
   }
 });
