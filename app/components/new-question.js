@@ -9,7 +9,7 @@ export default Ember.Component.extend({
 
     save() {
       var params = {
-        question: this.get('question'),
+        pregunta: this.get('pregunta'),
         author: this.get('author'),
         notes: this.get('notes') ? this.get('notes') : "",
       };

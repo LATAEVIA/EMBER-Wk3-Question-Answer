@@ -16,9 +16,3 @@ export default Ember.Route.extend({
     }
   }
 });
-
-// For each key in the params, 
-// if it is NOT undefined,
-// take the rental and set the property that matches the current key, to the value of the current key,
-// after looping through all of the keys, save the rental,
-// transition to the index route.

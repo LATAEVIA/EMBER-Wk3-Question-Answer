@@ -1,7 +1,7 @@
 <li>Author: {{question.author}}</li>
-<li>{{#link-to 'question' question.id}}Question: {{question.question}}{{/link-to}}</li>
+<li>{{#link-to 'question' question.id}}Question: {{question.pregunta}}{{/link-to}}</li>
   {{#if areNotesShowing}}
-    <li {{action 'notesHide'}} >Additionl Notes: {{question.notes}}</li>
+    <li {{action 'notesHide'}} >Additional Notes: {{question.notes}}</li>
   {{else}}
     <button {{action 'notesShow'}}>More info</button>
   {{/if}}
