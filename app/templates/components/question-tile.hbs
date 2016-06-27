@@ -1,5 +1,5 @@
 <li>Author: {{question.author}}</li>
-<li>Question: {{question.question}}</li>
+<li>{{#link-to 'question' question.id}}Question: {{question.question}}{{/link-to}}</li>
   {{#if areNotesShowing}}
     <li {{action 'notesHide'}} >Additionl Notes: {{question.notes}}</li>
   {{else}}
