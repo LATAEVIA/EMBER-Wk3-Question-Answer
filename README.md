@@ -16,7 +16,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <https://github.com/LATAEVIA/EMBER-Wk3-Question-Answer.git>` 
+* `git clone https://github.com/LATAEVIA/EMBER-Wk3-Question-Answer.git` 
 * change into the new directory
 * `npm install`
 * `bower install`
