@@ -20,7 +20,7 @@ _You will need the following things properly installed on your computer._
 
 ## Installation
 
-* `git clone https://github.com/LATAEVIA/Question-Answer-Message-Board.git`
+* `git clone https://github.com/LATAEVIA/Question-Answer-Message-Board-Part-1.git`
 * change into the new directory
 * `npm install`
 * `bower install`
