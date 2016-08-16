@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is an end-of-week project for my twelfth week at Epicodus. It is a web application that mimics a message board. Users can view, add and edit questions, and add answers to existing questions._
+_This is an end-of-week project for my thirteenth week at Epicodus. It is a web application that mimics a message board. Users can view, add and edit questions, and add answers to existing questions._
 
 ## Prerequisites
 
