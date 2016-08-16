@@ -1,12 +1,16 @@
-# _Epicodus JavaScript Week 3 Independent Project: Question Answer_
+# _Question Answer_
 
-#### _A web application that mimics a message board. Users can view, add and edit questions, and add answers to existing questions., 06/08/2016_
+#### _A web application build as a review of competencies in the following: using routes to control navigation through an Ember.js application, using Handlebars to create dynamic elements in templates, persisting data with models, Ember Data and Firebase, manipulating data between models and templates using components, and creating a working application using Ember., 06/08/2016_
 
 #### By _**LaTaevia**_
 
+## Description
+
+_This is an end-of-week project for my twelfth week at Epicodus. It is a web application that mimics a message board. Users can view, add and edit questions, and add answers to existing questions._
+
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+_You will need the following things properly installed on your computer._
 
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
@@ -16,7 +20,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone https://github.com/LATAEVIA/EMBER-Wk3-Question-Answer.git` 
+* `git clone https://github.com/LATAEVIA/Question-Answer-Message-Board.git`
 * change into the new directory
 * `npm install`
 * `bower install`
@@ -24,26 +28,9 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
+_Implement development server with live reloading:_
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-<!-- ### Deploying
-
-Specify what it takes to deploy your app. -->
 
 ## Technologies Used
 
@@ -51,19 +38,11 @@ Specify what it takes to deploy your app. -->
 * _CSS_
 * _Bootstrap_
 * _JavaScript_
-* _Ember_
-* _Firebase_
+* _Node.js_
 * _Node Package Manager_
 * _Bower_
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-* [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-* [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+* _Ember.js_
+* _TypeScript_
 
 ### License
 
